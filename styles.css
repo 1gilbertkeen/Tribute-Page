@@ -2,17 +2,30 @@
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     min-width: 260px;
-    color: #333;
+    color: #000;
+    background-color:#cec19f;
+    margin: auto;
+    
+}
+#main {
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #b4653e;
 }
 h1{
     font-size: 3.5em;
     font-weight: 900;
-    margin-bottom: 0;
 }
 
 h2 {
-    margin-top: 0;
-    font-weight: 400;
+    max-width: 60%;
+    margin: 1.2em auto;
+    padding: 10px;
+    border-radius: 20px;
+    background: #b4653e;
+   font-size: 1.5em;
+    font-weight: 600;
 }
 
 #title {
@@ -22,14 +35,6 @@ h2 {
     align-items: center;
     width: 100%;
     background-color:
-}
-
-#img-div {
-    margin:-5px;
-    margin-top:20px;
-    width:100%;
-    border:5px solid white;
-    background:white;
 }
 img{
     max-width: 80%; 
@@ -43,6 +48,16 @@ img{
     font-weight: bold;
   }
 
+  .hrtop {
+    max-width:80%;
+    border-color: #b4653e
+  }
+
+  .hrbottom {
+        max-width:90%;
+        border-color: #b4653e;
+      }
+  }
   .tribute-paragraph {
       max-width: 80%;
       margin: auto;
